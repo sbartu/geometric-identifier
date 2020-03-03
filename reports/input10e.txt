@@ -1,0 +1,22 @@
+p1 = scc((40, 40),0, (50, 40),0, (50, 20),0, (40, 20),0, (40, 40)) = s9 U s19 U s13 U s4
+rectangle(p1)
+hloc(p1,left)
+vloc(p1,bottom)
+p2 = scc((50, 40),0, (60, 40),0, (60, 20),0, (50, 20),0, (50, 10),0, (80, 10),0, (80, 50),0, (50, 50),0, (50, 40)) = s10 U s11 U s12 U s18 U s17 U s16 U s15 U s20
+hloc(p2,right)
+vloc(p2,bottom)
+p3 = scc((10, 10),0, (10, 50),0, (40, 50),0, (40, 40),0, (30, 40),0, (30, 20),0, (40, 20),0, (40, 10),0, (10, 10)) = s1 U s2 U s3 U s8 U s7 U s14 U s5 U s6
+hloc(p3,left)
+vloc(p3,bottom)
+overlap(p1,p2)
+left_of(p1,p2)
+overlap(p1,p3)
+right_of(p1,p3)
+overlap(p2,p1)
+right_of(p2,p1)
+overlap(p2,p3)
+right_of(p2,p3)
+overlap(p3,p1)
+left_of(p3,p1)
+overlap(p3,p2)
+left_of(p3,p2)

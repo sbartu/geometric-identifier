@@ -1,0 +1,8 @@
+circle(c1)
+hloc(c1,center)
+vloc(c1,middle)
+p1 = scc((40, 40),0, (40, 60),0, (60, 60),0, (60, 40),0, (40, 40)) = s4 U s3 U s2 U s1
+square(p1)
+hloc(p1,center)
+vloc(p1,middle)
+inside(p1,c1)

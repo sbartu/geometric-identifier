@@ -1,0 +1,13 @@
+p1 = scc((70, 50),0, (80, 50),0, (80, 60),0, (70, 60),0, (70, 50)) = s7 U s8 U s9 U s1
+square(p1)
+hloc(p1,right)
+vloc(p1,top)
+p2 = scc((70, 50),0, (70, 30),0, (34, 30),0, (19, 45),0, (19, 55),0, (34, 70),0, (70, 70),0, (70, 60),0, (60, 60),0, (60, 50),0, (70, 50)) = s11 U s14 U s6 U s5 U s13 U s3 U s2 U s10 U s4 U s12
+hloc(p2,center)
+vloc(p2,top)
+overlap(p1,p2)
+right_of(p1,p2)
+above(p1,p2)
+overlap(p2,p1)
+left_of(p2,p1)
+below(p2,p1)

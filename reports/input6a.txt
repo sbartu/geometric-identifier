@@ -1,0 +1,17 @@
+circle(c1)
+hloc(c1,center)
+vloc(c1,bottom)
+p1 = scc((45, 80),0, (55, 80),0, (55, 70),0, (45, 70),0, (45, 80)) = s4 U s5 U s6 U s7
+square(p1)
+hloc(p1,center)
+vloc(p1,top)
+p2 = scc((30, 10),0, (70, 10),0, (50, 50),0, (30, 10)) = s1 U s2 U s3
+triangle(p2)
+hloc(p2,center)
+vloc(p2,bottom)
+below(c1,p1)
+below(c1,p2)
+above(p1,c1)
+above(p1,p2)
+above(p2,c1)
+below(p2,p1)

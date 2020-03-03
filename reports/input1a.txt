@@ -1,0 +1,11 @@
+p1 = scc((50, 52),0, (60, 30),0, (40, 30),0, (50, 52)) = s6 U s5 U s4
+triangle(p1)
+hloc(p1,center)
+vloc(p1,bottom)
+p2 = scc((50, 82),0, (82, 18),0, (18, 18),0, (50, 82)) = s3 U s2 U s1
+triangle(p2)
+hloc(p2,center)
+vloc(p2,bottom)
+inside(p1,p2)
+below(p1,p2)
+above(p2,p1)
